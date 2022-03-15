@@ -1,7 +1,12 @@
-import "./App.css";
+import { UpperCaseName } from "./helper";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div>
+      <h1>Hello World!</h1>
+      <p>{UpperCaseName("matt russo")}</p>
+    </div>
+  );
 }
 
 export default App;
